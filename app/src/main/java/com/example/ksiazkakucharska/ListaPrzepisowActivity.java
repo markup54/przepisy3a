@@ -10,5 +10,7 @@ public class ListaPrzepisowActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_przepisow);
+        int kategoria= getIntent().getIntExtra("kategoria",1);
+
     }
 }

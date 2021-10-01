@@ -45,4 +45,8 @@ public class Przepis {
         this.idObrazka = idObrazka;
     }
 
+    @Override
+    public String toString() {
+        return nazwa;
+    }
 }

@@ -17,16 +17,23 @@ public class MainActivity extends AppCompatActivity {
         AdapterView.OnItemClickListener wybrany
                 = new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+            public void onItemClick(AdapterView<?> adapterView,
+                                    View view,
+                                    int i,
+                                    long l) {
                 //i który element kliknięto
 
                 Intent intent = new Intent(
                         MainActivity.this,
                         ListaPrzepisowActivity.class);
+                intent.putExtra("kategoria",i);
+                String kat = (String) adapterView.getItemAtPosition(i);
+                intent.putExtra("nazwa_kategorii",kat);
                 startActivity(intent);
             }
         };
         ListView listView = (ListView) findViewById(R.id.listView);
+
         listView.setOnItemClickListener(wybrany);
     }
 }
