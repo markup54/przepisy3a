@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Ksiazka Kucharska</string>
+    <string name="wybierz">Wybierz rodzaj przepisu</string>
+    <array name="typ">
+        <item>napoje</item>
+        <item>desery</item>
+        <item>ciasta</item>
+        <item>ciastka</item>
+    </array>
 </resources>
