@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/nauczyciel/AndroidStudioProjects/klasa3agr1/KsiazkaKucharska/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13177083333333334" />
         <entry key="..\:/Users/nauczyciel/AndroidStudioProjects/klasa3agr1/KsiazkaKucharska/app/src/main/res/layout/activity_lista_przepisow.xml" value="0.1" />
         <entry key="..\:/Users/nauczyciel/AndroidStudioProjects/klasa3agr1/KsiazkaKucharska/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/nauczyciel/AndroidStudioProjects/klasa3agr1/KsiazkaKucharska/app/src/main/res/layout/activity_przepis.xml" value="0.1" />
         <entry key="..\:/Users/nauczyciel/AndroidStudioProjects/klasa3agr1/KsiazkaKucharska/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.134375" />
       </map>
     </option>

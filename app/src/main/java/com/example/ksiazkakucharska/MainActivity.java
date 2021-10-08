@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
                         MainActivity.this,
                         ListaPrzepisowActivity.class);
                 intent.putExtra("kategoria",i);
-                String kat = (String) adapterView.getItemAtPosition(i);
+                String kat = (String)
+                        adapterView.getItemAtPosition(i);
                 intent.putExtra("nazwa_kategorii",kat);
                 startActivity(intent);
             }

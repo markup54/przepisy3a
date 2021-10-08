@@ -1,5 +1,7 @@
 package com.example.ksiazkakucharska;
 
+import java.util.ArrayList;
+
 public class RepozytoriumPrzepisow {
     public static final Przepis[] przepisy = {
             new Przepis("muffinki",
@@ -12,4 +14,14 @@ public class RepozytoriumPrzepisow {
                     R.drawable.paczki
             )
     };
+    public static ArrayList<Przepis> wybierz(int kategoria)
+    {
+        ArrayList<Przepis> wybrane = new ArrayList<>();
+        for(Przepis przepisik : przepisy)
+        {
+            if(przepisik.getKategoria() == kategoria)
+            { wybrane.add(przepisik); }
+        }
+        return wybrane;
+    }
 }
